@@ -1,0 +1,147 @@
+.main{background-image: url(1-\ Size\ and\ placement\ matter.jpg); background-repeat: no-repeat;
+	background-size: cover; height:700px ; overflow: hidden;}
+.intro{display: inline-block; margin-top:30px ; margin-left:20px ; color: white;}
+.userpic{width: 350px; height: 350px; border:black 7px solid;}
+.name{display: inline-block; margin-top: 80px ;font-size:40px ; margin-left:60px ; font-weight: bold;}
+h1{text-align: center; }
+.cv{background-image: url(images.jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}
+.table{background-image: url(download\ \(2\).jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}
+.form{background-image: url(download.jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}
+.multiple{background-image: url(download\ \(1\).jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}
+.dawn{background-image: url(download\ \(3\).jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}
+.apple{background-image: url(download\ \(4\).jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}	
+.comingsoon{background-image: url(images\ \(1\).jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}
+.responsive{background-image: url(download\ \(5\).jpeg); background-repeat: no-repeat;
+display: flex; justify-content: end;}
+.project{text-decoration: none; font-size: 30px; color:rgb(5, 5, 5);
+display: flex;justify-content:center; margin-bottom:80px ; font-weight: bold;
+opacity: 0;}
+.project:hover{opacity: 100;}
+.cv:hover{transform: skew(20deg,20deg);}
+.table:hover{transform: skew(20deg,20deg);}
+.form:hover{transform: skew(20deg,20deg);}
+.multiple:hover{transform: skew(20deg,20deg);}
+.dawn:hover{transform: skew(20deg,20deg);}
+.apple:hover{transform: skew(20deg,20deg);}
+.responsive:hover{transform: skew(20deg,20deg);}
+.comingsoon:hover{transform: skew(20deg,20deg);}
+.junaid{
+	background: url(background-2462431_640.webp);
+	padding: 10px;
+	width: 100%;
+	height: 600px;
+	opacity: 0.8;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	
+
+
+
+@media(min-width:550px)
+{ .userpic{float: right; height: 400px; width:400px ;}
+.name{margin-left:80px ; font-size:50px ;}
+.intro{font-size:20px ;}
+
+}
+@media(min-width:768px) {
+    .name{margin-left:100px ;}
+    .intro{margin-left:150px  ; }
+
+}
+@media(min-width:992px)
+{
+    .userpic{height: 450px; height: 450px;}
+}
+
+#preloader {
+	overflow: hidden;
+	background: linear-gradient(145deg, rgba(114, 2, 187, 1) 0%, rgba(50, 100, 245, 1) 100%);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	z-index: 9999999;
+	color: #fff;
+}
+
+#preloader .jumper {
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	position: absolute;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+}
+
+#preloader .jumper>div {
+	background-color: #fff;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	position: absolute;
+	opacity: 0;
+	width: 50px;
+	height: 50px;
+	-webkit-animation: jumper 1s 0s linear infinite;
+	animation: jumper 1s 0s linear infinite;
+}
+
+#preloader .jumper>div:nth-child(2) {
+	-webkit-animation-delay: 0.33333s;
+	animation-delay: 0.33333s;
+}
+
+#preloader .jumper>div:nth-child(3) {
+	-webkit-animation-delay: 0.66666s;
+	animation-delay: 0.66666s;
+}
+
+@-webkit-keyframes jumper {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+
+	5% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@keyframes jumper {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+
+	5% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
